@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F9CED8E1B1B513D007130D7 /* TableMovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CED8C1B1B513D007130D7 /* TableMovieViewController.m */; };
+		1F9CED8F1B1B513D007130D7 /* TableMovieViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F9CED8D1B1B513D007130D7 /* TableMovieViewController.xib */; };
+		1F9CED931B1B51B6007130D7 /* MovieCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CED911B1B51B6007130D7 /* MovieCell.m */; };
+		1F9CED941B1B51B6007130D7 /* MovieCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F9CED921B1B51B6007130D7 /* MovieCell.xib */; };
+		1F9CED991B1B51EC007130D7 /* DetailMovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CED971B1B51EC007130D7 /* DetailMovieViewController.m */; };
+		1F9CED9A1B1B51ED007130D7 /* DetailMovieViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F9CED981B1B51EC007130D7 /* DetailMovieViewController.xib */; };
+		1F9CED9C1B1B52CA007130D7 /* yy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F9CED9B1B1B52CA007130D7 /* yy@2x.png */; };
 		1FF04CBD1B1B4CDD0080766F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF04CBC1B1B4CDD0080766F /* main.m */; };
 		1FF04CC01B1B4CDD0080766F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF04CBF1B1B4CDD0080766F /* AppDelegate.m */; };
 		1FF04CC31B1B4CDD0080766F /* MovieDataBase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1FF04CC11B1B4CDD0080766F /* MovieDataBase.xcdatamodeld */; };
@@ -29,6 +36,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F9CED8B1B1B513D007130D7 /* TableMovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableMovieViewController.h; sourceTree = "<group>"; };
+		1F9CED8C1B1B513D007130D7 /* TableMovieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableMovieViewController.m; sourceTree = "<group>"; };
+		1F9CED8D1B1B513D007130D7 /* TableMovieViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableMovieViewController.xib; sourceTree = "<group>"; };
+		1F9CED901B1B51B6007130D7 /* MovieCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieCell.h; sourceTree = "<group>"; };
+		1F9CED911B1B51B6007130D7 /* MovieCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieCell.m; sourceTree = "<group>"; };
+		1F9CED921B1B51B6007130D7 /* MovieCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MovieCell.xib; sourceTree = "<group>"; };
+		1F9CED961B1B51EC007130D7 /* DetailMovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailMovieViewController.h; sourceTree = "<group>"; };
+		1F9CED971B1B51EC007130D7 /* DetailMovieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailMovieViewController.m; sourceTree = "<group>"; };
+		1F9CED981B1B51EC007130D7 /* DetailMovieViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailMovieViewController.xib; sourceTree = "<group>"; };
+		1F9CED9B1B1B52CA007130D7 /* yy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yy@2x.png"; sourceTree = "<group>"; };
 		1FF04CB71B1B4CDD0080766F /* MovieDataBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieDataBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FF04CBB1B1B4CDD0080766F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FF04CBC1B1B4CDD0080766F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -67,9 +84,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F9CED851B1B50B8007130D7 /* TableMovie */ = {
+			isa = PBXGroup;
+			children = (
+				1F9CED8B1B1B513D007130D7 /* TableMovieViewController.h */,
+				1F9CED8C1B1B513D007130D7 /* TableMovieViewController.m */,
+				1F9CED8D1B1B513D007130D7 /* TableMovieViewController.xib */,
+				1F9CED901B1B51B6007130D7 /* MovieCell.h */,
+				1F9CED911B1B51B6007130D7 /* MovieCell.m */,
+				1F9CED921B1B51B6007130D7 /* MovieCell.xib */,
+			);
+			name = TableMovie;
+			sourceTree = "<group>";
+		};
+		1F9CED951B1B51CA007130D7 /* DetailMovie */ = {
+			isa = PBXGroup;
+			children = (
+				1F9CED961B1B51EC007130D7 /* DetailMovieViewController.h */,
+				1F9CED971B1B51EC007130D7 /* DetailMovieViewController.m */,
+				1F9CED981B1B51EC007130D7 /* DetailMovieViewController.xib */,
+			);
+			name = DetailMovie;
+			sourceTree = "<group>";
+		};
 		1FF04CAE1B1B4CDD0080766F = {
 			isa = PBXGroup;
 			children = (
+				1F9CED9B1B1B52CA007130D7 /* yy@2x.png */,
+				1F9CED951B1B51CA007130D7 /* DetailMovie */,
+				1F9CED851B1B50B8007130D7 /* TableMovie */,
 				1FF04CB91B1B4CDD0080766F /* MovieDataBase */,
 				1FF04CD61B1B4CDD0080766F /* MovieDataBaseTests */,
 				1FF04CB81B1B4CDD0080766F /* Products */,
@@ -228,9 +271,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F9CED8F1B1B513D007130D7 /* TableMovieViewController.xib in Resources */,
 				1FF04CC91B1B4CDD0080766F /* Main.storyboard in Resources */,
+				1F9CED9A1B1B51ED007130D7 /* DetailMovieViewController.xib in Resources */,
+				1F9CED9C1B1B52CA007130D7 /* yy@2x.png in Resources */,
 				1FF04CCE1B1B4CDD0080766F /* LaunchScreen.xib in Resources */,
 				1FF04CCB1B1B4CDD0080766F /* Images.xcassets in Resources */,
+				1F9CED941B1B51B6007130D7 /* MovieCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +330,9 @@
 			files = (
 				1FF04CC31B1B4CDD0080766F /* MovieDataBase.xcdatamodeld in Sources */,
 				1FF04CC01B1B4CDD0080766F /* AppDelegate.m in Sources */,
+				1F9CED931B1B51B6007130D7 /* MovieCell.m in Sources */,
+				1F9CED991B1B51EC007130D7 /* DetailMovieViewController.m in Sources */,
+				1F9CED8E1B1B513D007130D7 /* TableMovieViewController.m in Sources */,
 				1FF04CC61B1B4CDD0080766F /* ViewController.m in Sources */,
 				1FF04CBD1B1B4CDD0080766F /* main.m in Sources */,
 			);
