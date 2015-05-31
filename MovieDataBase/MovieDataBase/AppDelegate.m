@@ -20,7 +20,10 @@
     
     TableMovieViewController *tabMovie = [[TableMovieViewController alloc] init];
     
-    self.window.rootViewController = tabMovie;
+    
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:tabMovie];
+    
+    self.window.rootViewController = nav;
     
     return YES;
 }

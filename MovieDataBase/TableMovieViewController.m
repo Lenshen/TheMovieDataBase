@@ -9,9 +9,11 @@
 #import "TableMovieViewController.h"
 #import "DetailMovieViewController.h"
 #import "MovieCell.h"
+#import "Movie.h"
 
 @interface TableMovieViewController ()
 <UITableViewDataSource,UITableViewDelegate>
+
 
 @end
 
@@ -21,7 +23,7 @@
     [super viewDidLoad];
     //创建tableview
     CGRect frame = self.view.bounds;
-    UITableView *tableView = [[UITableView alloc] initWithFrame:CGRectMake(frame.origin.x, frame.origin.y + 40, frame.size.width, frame.size.height - 40)];
+    UITableView *tableView = [[UITableView alloc] initWithFrame:frame];
     [self.view addSubview:tableView];
     //注册MovieCell
     UINib *nib = [UINib nibWithNibName:@"MovieCell" bundle:nil];
@@ -47,6 +49,8 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     DetailMovieViewController *movieDetail = [[DetailMovieViewController alloc] init];
+
+    
     [self.navigationController pushViewController:movieDetail animated:YES];
     
 }

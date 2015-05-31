@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+@class Movie;
 @interface DetailMovieViewController : UIViewController
+
 
 @end
