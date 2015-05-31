@@ -21,16 +21,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+#pragma mark tableview
     //创建tableview
     CGRect frame = self.view.bounds;
     UITableView *tableView = [[UITableView alloc] initWithFrame:frame];
     [self.view addSubview:tableView];
+#pragma mark moviecell
     //注册MovieCell
     UINib *nib = [UINib nibWithNibName:@"MovieCell" bundle:nil];
     [tableView registerNib:nib forCellReuseIdentifier:@"MovieCell"];
     tableView.delegate = self;
     tableView.dataSource = self;
     tableView.rowHeight = 100;
+#pragma mark navigation
+    self.navigationItem.title = @"电影";
     
 }
 
